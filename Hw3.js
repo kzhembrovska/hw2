@@ -14,7 +14,7 @@ function draw() {
        ellipseMode(CENTER);
        ellipse (i, j, 5, 5);
        fill(255);
-       noLoop();
     }
   }
+  noLoop();
 }
