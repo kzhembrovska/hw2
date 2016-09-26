@@ -4,11 +4,11 @@ function setup() {
 }
 
 function draw() {
-   
-  for(i = 0; i <= 190; i += 10) {
-       for (j = 0; j <= 190; j -= 10) {
-    
-       ellipse (i+10, j-10, 5, 5);
+   fill(255);
+  for(i = 10; i <= 190; i = i+5) {
+    for (j = 10; j <= 190; j=j+5) {
+      ellipseMode(CENTER);
+       ellipse (i, j, 5, 5);
        fill(255);
     }
   }
